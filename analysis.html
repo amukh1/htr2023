@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytic Algorithm Ranker</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="https://unpkg.com/mathjs@11.5.0/lib/browser/math.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+
+</head>
+<body>
+    <div class="nc s">
+        <h1>Analyze new code</h1>
+        <textarea type="text" placeholder="let algorithm = x => (x)" id="code" class="code"></textarea>
+        <button id="sub" onclick="analyze()">Analyze</button>
+            </div>
+    <div class="yc s">
+<h1>Analysis</h1>
+<div id="container">
+    Function of x
+    <div id="con1"></div>
+    First Order Derivative
+    <div id="con2"></div>
+    First Order Antiderivative
+    <div id="con3"></div>
+</div>
+<!-- <div class="algos">
+    <div class="algo">let alg = x => (x)</div>
+    <div class="algo">let alg = x => (x)</div>
+    <div class="algo">let alg = x => (x)</div>
+</div> -->
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

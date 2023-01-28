@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    background-color: rgb(64, 64, 64);
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* class nc is on the left 
+class yc is on the right */
+
+.s {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 25px;
+    margin: 10px;
+    cursor: pointer;
+    width: 45%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+textarea {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    padding: 25px;
+    margin: 10px;
+    cursor: pointer;
+    width: 90%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.algo {
+    transition: all 0.5s ease;
+    background-color: black;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.algo:hover {
+    background-color: rgb(141, 141, 245);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(141, 141, 245);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+}
+
+/* canvas {
+    width: 90%;
+    height: 33%;
+} */
